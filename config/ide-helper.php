@@ -13,8 +13,8 @@ return [
 	|
 	*/
 
-	'filename'  => '_ide_helper',
-	'format'    => 'php',
+	'filename' => '_ide_helper',
+	'format' => 'php',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -187,8 +187,8 @@ return [
 	| So to support jsonb in your models when working with Postgres, just add the following entry to the array below:
 	|
 	| "postgresql" => array(
-	|       "jsonb" => "json_array",
-	|  ),
+	| "jsonb" => "json_array",
+	| ),
 	|
 	*/
 	'custom_db_types' => [
@@ -208,13 +208,13 @@ return [
 	 |
 	 | For example, normally you would see this:
 	 |
-	 |  * @property \Illuminate\Support\Carbon $created_at
-	 |  * @property \Illuminate\Support\Carbon $updated_at
+	 | * @property \Illuminate\Support\Carbon $created_at
+	 | * @property \Illuminate\Support\Carbon $updated_at
 	 |
 	 | With this enabled, the properties will be this:
 	 |
-	 |  * @property \Illuminate\Support\Carbon $createdAt
-	 |  * @property \Illuminate\Support\Carbon $updatedAt
+	 | * @property \Illuminate\Support\Carbon $createdAt
+	 | * @property \Illuminate\Support\Carbon $updatedAt
 	 |
 	 | Note, it is currently an all-or-nothing option.
 	 |
