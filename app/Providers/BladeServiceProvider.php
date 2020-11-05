@@ -19,7 +19,7 @@ class BladeServiceProvider extends ServiceProvider
 	 *
 	 * @return void
 	 */
-	public function boot()
+	public function boot(): void
 	{
 		Blade::if('env', fn ($env) => app()->environment($env));
 	}

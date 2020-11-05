@@ -33,7 +33,7 @@ class Handler extends ExceptionHandler
 	 *
 	 * @return void
 	 */
-	public function register()
+	public function register(): void
 	{
 		//
 	}
@@ -46,7 +46,7 @@ class Handler extends ExceptionHandler
 	 * @param Throwable $exception Exception
 	 * @return void
 	 **/
-	public function report(Throwable $exception)
+	public function report(Throwable $exception): void
 	{
 		if ($this->shouldReport($exception) && app()->bound('sentry')) {
 			app('sentry')->captureException($exception);
