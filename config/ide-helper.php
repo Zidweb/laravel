@@ -100,6 +100,7 @@ return [
 
     'helper_files' => [
         base_path() . '/vendor/laravel/framework/src/Illuminate/Support/helpers.php',
+        base_path() . '/app/Helpers.php',
     ],
 
     /*
