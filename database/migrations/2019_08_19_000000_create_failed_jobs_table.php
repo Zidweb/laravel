@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\{Schema\Blueprint, Migrations\Migration};
+use Illuminate\Database\{Migrations\Migration, Schema\Blueprint};
 
 class CreateFailedJobsTable extends Migration
 {
