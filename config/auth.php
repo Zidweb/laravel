@@ -80,19 +80,19 @@ return [
 	],
 
 	/*
-    |--------------------------------------------------------------------------
-    | Email Verification
-    |--------------------------------------------------------------------------
-    |
-    | The expire time is the number of minutes that the verification link should
-    | be considered valid. This security feature keeps links short-lived so
-    | they have less time to be guessed. You may change this as needed.
-    |
-    */
+	|--------------------------------------------------------------------------
+	| Email Verification
+	|--------------------------------------------------------------------------
+	|
+	| The expire time is the number of minutes that the verification link should
+	| be considered valid. This security feature keeps links short-lived so
+	| they have less time to be guessed. You may change this as needed.
+	|
+	*/
 
-    'verification' => [
-        'expire' => 60,
-    ],
+	'verification' => [
+		'expire' => 60,
+	],
 
 	/*
 	|--------------------------------------------------------------------------
