@@ -6,17 +6,17 @@ namespace Tests\Feature;
 
 use Tests\TestCase;
 
-class ExampleTest extends TestCase
+class IndexTest extends TestCase
 {
 	/**
-	 * A basic test example.
+	 * Assert success HTTP status code on index page.
 	 *
 	 * @return void
 	 */
-	public function testBasicTest(): void
+	public function test_index_page(): void
 	{
 		$response = $this->get('/');
 
-		$response->assertStatus(200);
+		$response->assertOk();
 	}
 }
