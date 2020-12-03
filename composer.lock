@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7affbcc05188ea482f82b6d2d8d0a647",
+    "content-hash": "eb839b5505c11c68c21f53fee3ffedd6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3280,22 +3280,23 @@
         },
         {
             "name": "sentry/sentry-laravel",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getsentry/sentry-laravel.git",
-                "reference": "f4c663b6510e793a180dee6b3a7c95c339f7fd8a"
+                "reference": "fd987481113fbfbfafb8adc0717cab9babe50ce4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/f4c663b6510e793a180dee6b3a7c95c339f7fd8a",
-                "reference": "f4c663b6510e793a180dee6b3a7c95c339f7fd8a",
+                "url": "https://api.github.com/repos/getsentry/sentry-laravel/zipball/fd987481113fbfbfafb8adc0717cab9babe50ce4",
+                "reference": "fd987481113fbfbfafb8adc0717cab9babe50ce4",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "5.0 - 5.8 | ^6.0 | ^7.0 | ^8.0",
                 "php": "^7.2",
-                "sentry/sdk": "^3.0"
+                "sentry/sdk": "^3.1",
+                "sentry/sentry": "3.1.*"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "2.16.*",
@@ -3357,7 +3358,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-11-04T14:56:24+00:00"
+            "time": "2020-12-01T13:57:22+00:00"
         },
         {
             "name": "swagger-api/swagger-ui",
