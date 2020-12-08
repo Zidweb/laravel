@@ -243,22 +243,22 @@
         },
         {
             "name": "darkaonline/l5-swagger",
-            "version": "8.0.2",
+            "version": "8.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DarkaOnLine/L5-Swagger.git",
-                "reference": "9b900e353503237ed983cae17277ff12fc1aaaf9"
+                "reference": "446d3b77097d8dd737b1539823660fafa3524cb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DarkaOnLine/L5-Swagger/zipball/9b900e353503237ed983cae17277ff12fc1aaaf9",
-                "reference": "9b900e353503237ed983cae17277ff12fc1aaaf9",
+                "url": "https://api.github.com/repos/DarkaOnLine/L5-Swagger/zipball/446d3b77097d8dd737b1539823660fafa3524cb4",
+                "reference": "446d3b77097d8dd737b1539823660fafa3524cb4",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "laravel/framework": "^8.0 || ^7.0",
-                "php": "^7.2",
+                "php": "^7.2 || ^8.0",
                 "swagger-api/swagger-ui": "^3.0",
                 "symfony/yaml": "^5.0",
                 "zircote/swagger-php": "3.*"
@@ -298,11 +298,15 @@
                     "email": "darius@matulionis.lt"
                 }
             ],
-            "description": "Swagger integration to Laravel 5",
+            "description": "OpenApi or Swagger integration to Laravel",
             "keywords": [
                 "api",
+                "documentation",
                 "laravel",
-                "swagger"
+                "openapi",
+                "specification",
+                "swagger",
+                "ui"
             ],
             "funding": [
                 {
@@ -310,7 +314,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-09T05:12:50+00:00"
+            "time": "2020-12-07T19:26:04+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1220,10 +1224,6 @@
                 "profiling",
                 "slim"
             ],
-            "support": {
-                "issues": "https://github.com/itsgoingd/clockwork/issues",
-                "source": "https://github.com/itsgoingd/clockwork/tree/v5.0.4"
-            },
             "funding": [
                 {
                     "url": "https://github.com/itsgoingd",
@@ -9843,5 +9843,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
