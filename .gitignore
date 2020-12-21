@@ -1,6 +1,8 @@
 /node_modules
 /public/hot
 /public/storage
+# Package static assets
+/public/vendor
 /storage/*.key
 /vendor
 .env
@@ -13,3 +15,9 @@ yarn-error.log
 _ide_helper.php
 .phpstorm.meta.php
 .php_cs.cache
+# Laravel Nova
+/nova
+nova.zip
+resources/views/vendor/nova
+# Package language files
+resources/lang/vendor
