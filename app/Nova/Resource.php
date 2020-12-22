@@ -6,11 +6,14 @@ namespace App\Nova;
 
 use Illuminate\Database\Eloquent\Builder;
 use Laravel\Nova\Resource as NovaResource;
-use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Scout\Builder as ScoutBuilder;
+use Laravel\Nova\Http\Requests\NovaRequest;
+use Titasgailius\SearchRelations\SearchesRelations;
 
 abstract class Resource extends NovaResource
 {
+	use SearchesRelations;
+
 	/**
 	 * Build an "index" query for the given resource.
 	 *
