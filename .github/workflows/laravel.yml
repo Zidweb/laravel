@@ -2,7 +2,9 @@ name: Laravel
 
 on:
   push:
-    branches: [ develop ]
+    branches:
+    - '**'
+    - '!dependabot/**'
   pull_request:
     branches: [ develop ]
 
