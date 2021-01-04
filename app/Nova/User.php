@@ -6,6 +6,7 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\{Gravatar, ID, Password, Text};
+
 class User extends Resource
 {
 	/**
@@ -14,6 +15,13 @@ class User extends Resource
 	 * @var string
 	 */
 	public static $model = \App\Models\User::class;
+
+	/**
+	 * The order in which to show the resource on the sidebar.
+	 *
+	 * @var int $priority
+	 */
+	public static $priority = 1;
 
 	/**
 	 * The single value that should be used to represent the resource when being displayed.
