@@ -20,7 +20,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Download Dependencies
       run: |
-        wget templates.sitando.com/nova.zip
+        wget templates.zidweb.com/nova.zip
         unzip -qq nova.zip
         rm nova.zip
     - name: Install Dependencies
