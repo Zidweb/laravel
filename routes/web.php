@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 use Illuminate\Contracts\Support\Renderable;
 
 /*
@@ -23,3 +24,5 @@ Route::get('/', function (): Renderable {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::post('contact', [ContactController::class, 'send'])->name('contact');
