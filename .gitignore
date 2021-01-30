@@ -21,3 +21,5 @@ nova.zip
 resources/views/vendor/nova
 # Package language files
 resources/lang/vendor
+# Generated Swagger API docs
+storage/api-docs
