@@ -17,9 +17,7 @@ use Illuminate\Contracts\Support\Renderable;
 |
 */
 
-Route::get('/', function (): Renderable {
-	return view('welcome');
-});
+Route::get('/', fn (): Renderable => view('welcome'));
 
 Auth::routes();
 
