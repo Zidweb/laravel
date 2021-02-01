@@ -2169,16 +2169,16 @@
         },
         {
             "name": "laravel/sanctum",
-            "version": "v2.8.2",
+            "version": "v2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sanctum.git",
-                "reference": "331bd6572610b06ad6dd6b2a7c15a0465a3ca9c9"
+                "reference": "eb191ddfc3ec04bbead33593bf982e871095f25c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sanctum/zipball/331bd6572610b06ad6dd6b2a7c15a0465a3ca9c9",
-                "reference": "331bd6572610b06ad6dd6b2a7c15a0465a3ca9c9",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/eb191ddfc3ec04bbead33593bf982e871095f25c",
+                "reference": "eb191ddfc3ec04bbead33593bf982e871095f25c",
                 "shasum": ""
             },
             "require": {
@@ -2229,20 +2229,20 @@
                 "issues": "https://github.com/laravel/sanctum/issues",
                 "source": "https://github.com/laravel/sanctum"
             },
-            "time": "2020-11-24T17:31:19+00:00"
+            "time": "2021-01-26T19:47:38+00:00"
         },
         {
             "name": "laravel/scout",
-            "version": "v8.5.2",
+            "version": "v8.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/scout.git",
-                "reference": "ece6758b82c51ff7f5e011f243a7c6b33711a847"
+                "reference": "54070f7b68fed15f25e61e68884c4110496b8aa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/scout/zipball/ece6758b82c51ff7f5e011f243a7c6b33711a847",
-                "reference": "ece6758b82c51ff7f5e011f243a7c6b33711a847",
+                "url": "https://api.github.com/repos/laravel/scout/zipball/54070f7b68fed15f25e61e68884c4110496b8aa1",
+                "reference": "54070f7b68fed15f25e61e68884c4110496b8aa1",
                 "shasum": ""
             },
             "require": {
@@ -2298,7 +2298,7 @@
                 "issues": "https://github.com/laravel/scout/issues",
                 "source": "https://github.com/laravel/scout"
             },
-            "time": "2020-12-30T15:52:14+00:00"
+            "time": "2021-01-19T15:30:52+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -3368,16 +3368,16 @@
         },
         {
             "name": "php-http/message",
-            "version": "1.10.0",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/message.git",
-                "reference": "39db36d5972e9e6d00ea852b650953f928d8f10d"
+                "reference": "fb0dbce7355cad4f4f6a225f537c34d013571f29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/message/zipball/39db36d5972e9e6d00ea852b650953f928d8f10d",
-                "reference": "39db36d5972e9e6d00ea852b650953f928d8f10d",
+                "url": "https://api.github.com/repos/php-http/message/zipball/fb0dbce7355cad4f4f6a225f537c34d013571f29",
+                "reference": "fb0dbce7355cad4f4f6a225f537c34d013571f29",
                 "shasum": ""
             },
             "require": {
@@ -3393,15 +3393,15 @@
                 "ergebnis/composer-normalize": "^2.6",
                 "ext-zlib": "*",
                 "guzzlehttp/psr7": "^1.0",
+                "laminas/laminas-diactoros": "^2.0",
                 "phpspec/phpspec": "^5.1 || ^6.3",
-                "slim/slim": "^3.0",
-                "zendframework/zend-diactoros": "^1.0"
+                "slim/slim": "^3.0"
             },
             "suggest": {
                 "ext-zlib": "Used with compressor/decompressor streams",
                 "guzzlehttp/psr7": "Used with Guzzle PSR-7 Factories",
-                "slim/slim": "Used with Slim Framework PSR-7 implementation",
-                "zendframework/zend-diactoros": "Used with Diactoros Factories"
+                "laminas/laminas-diactoros": "Used with Diactoros Factories",
+                "slim/slim": "Used with Slim Framework PSR-7 implementation"
             },
             "type": "library",
             "extra": {
@@ -3436,9 +3436,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-http/message/issues",
-                "source": "https://github.com/php-http/message/tree/1.10.0"
+                "source": "https://github.com/php-http/message/tree/1.11.0"
             },
-            "time": "2020-11-11T10:19:56+00:00"
+            "time": "2021-02-01T08:54:58+00:00"
         },
         {
             "name": "php-http/message-factory",
@@ -9981,16 +9981,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.0",
+            "version": "9.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "8e16c225d57c3d6808014df6b1dd7598d0a5bbbe"
+                "reference": "e7bdf4085de85a825f4424eae52c99a1cec2f360"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8e16c225d57c3d6808014df6b1dd7598d0a5bbbe",
-                "reference": "8e16c225d57c3d6808014df6b1dd7598d0a5bbbe",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e7bdf4085de85a825f4424eae52c99a1cec2f360",
+                "reference": "e7bdf4085de85a825f4424eae52c99a1cec2f360",
                 "shasum": ""
             },
             "require": {
@@ -10068,7 +10068,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.0"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.1"
             },
             "funding": [
                 {
@@ -10080,7 +10080,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-04T05:05:53+00:00"
+            "time": "2021-01-17T07:42:25+00:00"
         },
         {
             "name": "react/promise",
