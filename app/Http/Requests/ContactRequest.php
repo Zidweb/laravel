@@ -20,7 +20,7 @@ class ContactRequest extends FormRequest
 	 *
 	 * @return bool
 	 */
-	public function authorize()
+	public function authorize(): bool
 	{
 		return true;
 	}
@@ -30,7 +30,7 @@ class ContactRequest extends FormRequest
 	 *
 	 * @return array
 	 */
-	public function rules()
+	public function rules(): array
 	{
 		return [
 			'name' => 'bail|required|string|min:3|max:50',
