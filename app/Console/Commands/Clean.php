@@ -9,6 +9,14 @@ use Illuminate\Support\Facades\File;
 
 class Clean extends Command
 {
+	private array $files = [
+		'nova.zip',
+		'.php_cs.cache',
+		'_ide_helper.php',
+		'.phpstorm.meta.php',
+		'.phpunit.result.cache',
+	];
+
 	/**
 	 * The name and signature of the console command.
 	 *
@@ -38,13 +46,11 @@ class Clean extends Command
 	 *
 	 * @return int
 	 */
-	public function handle()
+	public function handle(): int
 	{
-		File::delete('.php_cs.cache');
-		File::delete('.phpstorm.meta.php');
-		File::delete('.phpunit.result.cache');
-		File::delete('nova.zip');
-		File::delete('_ide_helper.php');
+		foreach ($this->files as $file) {
+			File::delete($file);
+		}
 		return 0;
 	}
 }
