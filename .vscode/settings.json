@@ -1,0 +1,19 @@
+{
+	// Only PHP Files
+	"[php]": {
+		// Defines a default formatter which takes precedence over all other formatter settings. Must be the identifier of an extension contributing a formatter.
+		"editor.defaultFormatter": "junstyle.php-cs-fixer"
+	},
+	// Execute PHP CS Fixer on save
+	"php-cs-fixer.onsave": true,
+	// config file (.php_cs, .php_cs.dist or custom defined) can place in workspace root folder or .vscode folder or any other folder (full path)
+	"php-cs-fixer.config": ".php_cs",
+	// Are risky fixers allowed?
+	"php-cs-fixer.allowRisky": true,
+	// Insert spaces when pressing `Tab`. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+	"editor.insertSpaces": false,
+	// The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
+	"editor.tabSize": 4,
+	// Format a file on save. A formatter must be available, the file must not be saved after delay, and the editor must not be shutting down.
+	"editor.formatOnSave": true
+}
