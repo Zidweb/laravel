@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4cac407002ced32d7490c197aec51fd3",
+    "content-hash": "7296315fc0c9315b40aaefeace1a3e01",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -9052,6 +9052,56 @@
                 "source": "https://github.com/justinrainbow/json-schema/tree/5.2.10"
             },
             "time": "2020-05-27T16:41:55+00:00"
+        },
+        {
+            "name": "laravel/homestead",
+            "version": "v12.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/homestead.git",
+                "reference": "a3ab5039275f385407e634ab1f5285fd1f7550b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/a3ab5039275f385407e634ab1f5285fd1f7550b7",
+                "reference": "a3ab5039275f385407e634ab1f5285fd1f7550b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "symfony/console": "~5.1",
+                "symfony/process": "~5.1",
+                "symfony/yaml": "~5.1"
+            },
+            "require-dev": {
+                "dms/phpunit-arraysubset-asserts": "^0.2.1",
+                "phpunit/phpunit": "^9.5"
+            },
+            "bin": [
+                "bin/homestead"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Homestead\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "A virtual machine for web artisans.",
+            "support": {
+                "issues": "https://github.com/laravel/homestead/issues",
+                "source": "https://github.com/laravel/homestead/tree/v12.0.0"
+            },
+            "time": "2021-02-02T14:37:40+00:00"
         },
         {
             "name": "maximebf/debugbar",

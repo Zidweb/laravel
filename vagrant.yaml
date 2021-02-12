@@ -1,0 +1,30 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 2
+provider: virtualbox
+authorize: ~/.ssh/id_ed25519.pub
+keys:
+    - ~/.ssh/id_ed25519
+folders:
+    -
+        map: ~/Sites/laravel
+        to: /home/vagrant/code
+sites:
+    -
+        map: laravel.local
+        to: /home/vagrant/code/public
+databases:
+    - laravel
+features:
+    -
+        mysql: true
+    -
+        mariadb: false
+    -
+        postgresql: false
+    -
+        ohmyzsh: true
+    -
+        webdriver: false
+name: laravel
+hostname: laravel

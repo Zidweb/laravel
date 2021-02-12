@@ -8,8 +8,6 @@
 .env
 .env.backup
 .phpunit.result.cache
-Homestead.json
-Homestead.yaml
 npm-debug.log
 yarn-error.log
 _ide_helper.php
@@ -23,3 +21,5 @@ resources/views/vendor/nova
 resources/lang/vendor
 # Generated Swagger API docs
 storage/api-docs
+# Vagrant generated files
+.vagrant
