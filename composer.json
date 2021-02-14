@@ -30,6 +30,7 @@
 		"brianium/paratest": "^6.2",
 		"facade/ignition": "^2.5",
 		"fakerphp/faker": "^1.12.1",
+		"friendsofphp/php-cs-fixer": "^2.18",
 		"laravel/homestead": "^12.0",
 		"laravel/ui": "^3.1",
 		"mockery/mockery": "^1.4.2",
@@ -76,6 +77,7 @@
 		],
 		"post-update-cmd": [
 			"Illuminate\\Foundation\\ComposerScripts::postUpdate",
+			"ln -s -f ../../hooks/pre-commit .git/hooks/pre-commit",
 			"@php artisan ide-helper:generate",
 			"@php artisan ide-helper:meta"
 		]
