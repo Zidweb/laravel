@@ -21,7 +21,7 @@
 		"laravel/sanctum": "^2.8",
 		"laravel/scout": "^8.5",
 		"laravel/tinker": "^2.6",
-		"sentry/sentry-laravel": "^2.3",
+		"sentry/sentry-laravel": "^2.4",
 		"titasgailius/search-relations": "^1.0"
 	},
 	"require-dev": {
