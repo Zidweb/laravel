@@ -78,8 +78,12 @@
 		"post-update-cmd": [
 			"Illuminate\\Foundation\\ComposerScripts::postUpdate",
 			"ln -s -f ../../hooks/pre-commit .git/hooks/pre-commit",
+			"@composer ide"
+		],
+		"ide": [
 			"@php artisan ide-helper:generate",
-			"@php artisan ide-helper:meta"
+			"@php artisan ide-helper:meta",
+			"@php artisan ide-helper:models -W"
 		]
 	},
 	"repositories": [
