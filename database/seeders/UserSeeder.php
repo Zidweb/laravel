@@ -16,6 +16,8 @@ class UserSeeder extends Seeder
 	 */
 	public function run(): void
 	{
+		$count = $this->command->ask('How many users you wish to seed?', '20');
+		User::factory()->count((int) $count)->create();
 		User::factory()->create([
 			'name' => 'Admin',
 			'email' => 'admin@laravel.dev',
