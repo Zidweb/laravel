@@ -23,3 +23,5 @@ resources/lang/vendor
 storage/api-docs
 # Vagrant generated files
 .vagrant
+# Laravel debug bar
+storage/debugbar/
