@@ -1,6 +1,9 @@
 /node_modules
 /public/hot
 /public/storage
+# Compiled frontend bundles
+/public/css/app.css
+/public/js/app.js
 # Package static assets
 /public/vendor
 /storage/*.key
